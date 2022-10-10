@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cek Harga</title>
+    <link rel="stylesheet" type="text/css" href="styleCekHarga.css">
+</head>
+<body>
+    <p align="right">
+        <a name="right">    
+            <a href="home_page.html">Home | </a>
+            <a href="cek_harga.html">Cek Harga | </a>
+            <a href="login.html">Login</a>
+            <a href="logout.html">Log Out</a>
+        </a> 
+      </p>
+</body>
+
+      <script>
+        function validateForm() {
+            var harga;
+            var hargaSewa;
+            var totalBayar;
+            var jumlahHari
+            if (harga = 300000){
+                document.write("Harga Sewa = " . hargaSewa = harga * jumlahHari);
+            } else if (harga = 400000){
+                document.write("Harga Sewa = " . hargaSewa = harga * jumlahHari);
+            } else if (harga = 500000){
+                document.write("Harga Sewa = " . hargaSewa = harga * jumlahHari);
+            }
+            var diskon = "";
+                switch(jawab){
+                    case "1":
+                        diskon = "Diskon Member 10%";
+                        break;
+                    case "2":
+                        diskon = "Promo HUT sebesar 100.000";
+                        break;
+                    default:
+                        document.write("<p>Tidak ada diskon</p>");
+                }
+        }  
+    </script>
+
+    <top><h2>O_Tell Dhrsm</h2></top>
+    <div class="row">
+        <hr><form name="formCekHarga" method="post" onsubmit="return validateForm()">
+            <div class="form-group">
+                <top><label><b>Lantai</b></label></top>
+                <input type="number" name="lantai" class="form-control" style="display:flex; margin:auto;">
+            </div>
+            <div class="form-group">
+                <top><label><b>Type</b></label></top>
+                <select name="tipe" class="form-control" style="display:block; margin:auto;">
+                        <option value="0">Standard</option>
+                        <option value="1">Superior</option>
+                        <option value="2">Deluxe</option>
+                    </select>
+            </div>
+            <div class="form-group">
+                <top><label><b>Jumlah Hari</b></label></top>
+                <input type="number" name="jumlahhari" class="form-control" style="display:block; margin:auto;">
+            </div>
+            <div class="container">
+                <top><label><b>Diskon</b></label></top>
+                <select name="jurusan" class="form-control" style="display:block; margin:auto;">
+                        <option value="0">Tidak Ada</option>
+                        <option value="1">Member</option>
+                        <option value="2">Promo HUT</option>
+                    </select>
+            </div>
+            <button type="submit" class="btn btn-primary">Check</button>
+        </form></hr>
+    </div>
+
+
+</body>
+</html>

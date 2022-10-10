@@ -1,0 +1,51 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Login</title>
+        <link rel="stylesheet" href="styleLogin.css">
+    </head>
+   
+    <body>
+        <div class="row">
+            <h3>Mohon Login Terlebih Dahulu</h3>
+            <h4>O_Tell Dhrsm</h4>
+            <h1>Login</h1>
+            <form>
+                <div>
+                <label>Username</label><br>
+                <input type="text" name="username" id="username" ><br>
+                </div>
+                <div>
+                <label>Password</label><br>
+                <input type="password" name="password" id="password"><br>
+                <button onclick="validasi()">Log in</button>
+                </div>
+            </form>
+        </div>     
+    </body>
+
+    <script type="text/javascript">
+        function validasi() {
+            var username = document.getElementById("username").value;
+            var password = document.getElementById("password").value;
+            if (username != "" && password !="") {
+                <a href="homo_page.html"></a>;
+            }else{
+                alert('Harus terisi');
+            }
+        }
+    </script>
+
+    <body bgcolor="white">
+        <div class="oke">
+            <a name="right">    
+                <a href="home_page.html">Home | </a>
+                <a href="cek_harga.html">Cek Harga | </a>
+                <a href="login.html">Login</a>
+                <a href="logout.html">Log Out</a>
+            </a> 
+    </div>
+    </body>
+    
+
+</html>

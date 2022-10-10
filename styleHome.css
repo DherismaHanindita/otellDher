@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body{
+    height: 100vh;
+    background-image: url(./blur.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.row h1{
+    text-align: center;
+    color: #240505;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+    border-bottom: 4px solid #2979ff;
+}

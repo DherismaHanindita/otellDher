@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login to O_Tell</title>
+        <link rel="stylesheet" type="text/css" href="uts_Dherisma.css">       
+    </head>
+
+    <script>
+        function validateForm(){
+            let x = document.forms["myForm"]["fname"].value;
+            if(x == ""){
+                alert("Harus Terisi");
+                return false;
+            }
+        }
+    </script>
+
+    <head>
+        <body>
+            <h2>~~~~~~~~ Mohon Login Terlebih Dahulu ~~~~~~~~</h2>
+            <form action="" Username="myForm" onsubmit="return validateForm()" method="post">
+            Username    : <input type="text"  
+            </form>
+        </body>
+    </head>
+</html>
